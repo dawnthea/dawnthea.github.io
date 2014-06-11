@@ -1,0 +1,42 @@
+/*====== my styles =====*/
+
+@font-face
+{
+font-family: typewriter;
+src: url(typewriter.ttf);
+}
+@font-face
+{
+    font-family: PrestigeEliteStd;
+    src: url(PrestigeEliteStd.otf);
+}
+
+h1 { font-family: typewriter, serif; margin-top: -15px; color: #292929; }
+h3, h5 { font-family: typewriter, serif; color: #292929; }
+p { font-family: 'Muli', sans-serif; color: #292929; font-weight: 600; }
+a { font-family: PrestigeEliteStd, serif; color: #292929; border-bottom: 1px solid #292929; font-weight: 600; }
+a:hover { color: #9a9a99; border-bottom: 1px solid #9a9a99;}
+.clear { clear:both; }
+.top { margin-top: 60px; }
+.article { margin: 40px 0; }
+.article .columns { padding-left: 2.6em; }
+.article a { float: right; margin-right: 1.8em; }
+img {
+    -webkit-box-shadow: 3px 3px 11px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:    3px 3px 11px 0px rgba(50, 50, 50, 0.3);
+    box-shadow:         3px 3px 11px 0px rgba(50, 50, 50, 0.3);
+}
+p a { font-family: 'Muli', sans-serif; color: #292929; font-weight: 600; }
+ul { margin: -15px 0 0 0; }
+ul li { display: block; height: 33px; width: 33px; float: left; margin-right: 6px;}
+li.fb { background: url(../img/sprite.png) 0 0; }
+li.fb:hover { background: url(../img/sprite.png) 0 -33px; }
+li.twitter { background: url(../img/sprite.png) 66px 0; }
+li.twitter:hover { background: url(../img/sprite.png) -33px -33px; }
+li.linkedin { background: url(../img/sprite.png) 33px 0; }
+li.linkedin:hover { background: url(../img/sprite.png) -66px -33px; }
+footer { margin-top: 20px; background: #292929; }
+footer p, footer a { color: #fff; font-weight: 100; }
+footer a { color: #9a9a99; }
+footer p.name { font-size:16px; margin: 10px 0; }
+footer p.created { font-size:10px; float: right; margin: 15px 0; }

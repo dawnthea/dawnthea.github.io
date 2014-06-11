@@ -18,6 +18,7 @@ a { font-family: PrestigeEliteStd, serif; color: #292929; border-bottom: 1px sol
 a:hover { color: #9a9a99; border-bottom: 1px solid #9a9a99;}
 .clear { clear:both; }
 .top { margin-top: 60px; }
+.sidebar { margin-bottom: 30px; }
 .article { margin: 40px 0; }
 .article .columns { padding-left: 2.6em; }
 .article a { float: right; margin-right: 1.8em; }

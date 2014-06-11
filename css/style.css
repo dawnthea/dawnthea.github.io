@@ -3,12 +3,15 @@
 @font-face
 {
 font-family: typewriter;
-src: url(typewriter.ttf);
+src: url(typewriter.eot);
+src:local('typewriter'), local('typewriter'), url('typewriter.ttf') format('opentype'); 
+src: local('typewriter'), local('typewriter'), url('typewriter.woff') format('woff'), url('typewriter.otf') format('opentype'), url('typewriter.svg#typewriter') format('svg'); 
 }
 @font-face
 {
     font-family: PrestigeEliteStd;
-    src: url(PrestigeEliteStd.otf);
+    src: url(PrestigeEliteStd.eot);
+    src:local(PrestigeEliteStd), local('PrestigeEliteStd'), url('PrestigeEliteStd.otf') format('opentype');
 }
 
 h1 { font-family: typewriter, serif; margin-top: -15px; color: #292929; }

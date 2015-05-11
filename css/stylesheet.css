@@ -1,0 +1,51 @@
+/* CSS */
+
+body {
+}
+
+a {
+	color: #33C;
+	text-decoration:none;
+	
+}
+
+p {
+	font-family: 'Roboto',sans-serif;
+	font-size:18pt;
+	font-weight:400;
+}
+
+#pages {
+	font-family: 'Halant', serif;
+	font-size:50pt;
+	font-weight:bold;
+	color:#36C;
+	text-align:left;
+	border-right:thin;
+	padding-right:50px;
+}
+
+h1 {
+	font-family: 'Halant',serif;
+	font-weight:500;
+	text-align:center;	
+}
+
+#about {
+	font-family: 'Roboto', sans-serif;
+	font-size: 42pt;
+	text-align:center;	
+}
+
+#contact {
+	
+	
+		
+}
+
+footer {
+	font-family: 'Halant',serif;
+	font-size:10px;
+	font-weight:bolder;
+	
+}

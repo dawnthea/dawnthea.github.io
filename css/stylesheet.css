@@ -27,26 +27,27 @@ h2 {
 h1 {
 	font-family: 'Halant',serif;
 	font-weight: 500;
+	font-size:40pt;
 	text-align: center;	
 }
 
 #intro {
-	font-family: 'Roboto',sans-serif;
+	font-family: sans-serif;
 	font-size: 18pt;
 	font-weight: 400;
 }
 
 #contact {
-	font-family: 'Halant',serif;
+	font-family: sans-serif;
 	font-size: 14px;
 	font-weight: bolder;	
 	text-align:center;
 }
 
 footer {
-	font-family: 'Halant',serif;
+	font-family: serif;
 	font-size: 10px;
-	font-weight: bolder;
+	text-align:center;
 	
 }
 

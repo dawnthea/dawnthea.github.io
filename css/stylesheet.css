@@ -34,7 +34,8 @@ h3 {
 #intro {
 	width:400px
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.25em;
+	font-size: 28pt;
+	text-align:justify;
 }
 
 footer {
